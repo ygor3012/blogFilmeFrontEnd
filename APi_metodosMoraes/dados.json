@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "titulo": "O Poderoso Chefão",
+      "categoria": "Filme",
+      "plataforma": "Paramount+",
+      "nota": 9.2,
+      "status": "Assistido",
+      "capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJj88zbYh9trMPNd8FWYiLVPEsBtovmcKCcw9en9pCYxkhQ9YuRyJAm1J2&s=10"
+    },
+    {
+      "id": 2,
+      "titulo": "Interstellar",
+      "categoria": "Filme",
+      "plataforma": "Max",
+      "nota": 8.7,
+      "status": "Quero Assistir",
+      "capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpSr9YIYeUuoHVxfp_HBODbgcNVNCg72_0J67vH2o2Pw&s=10"
+    },
+    {
+      "id": 3,
+      "titulo": "Stranger Things",
+      "categoria": "Série",
+      "plataforma": "Netflix",
+      "nota": 8.7,
+      "status": "Assistindo",
+      "capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXW7G_E_cWpEHBnHqWzLvp5YWbWKzhv7v1QgixQQC-EA&s=10"
+    },
+    {
+      "id": 4,
+      "titulo": "Breaking Bad",
+      "categoria": "Série",
+      "plataforma": "Netflix",
+      "nota": 9.5,
+      "status": "Assistido",
+      "capa": "https://br.web.img3.acsta.net/pictures/14/03/31/19/28/462555.jpg"
+    },
+    {
+      "id": 5,
+      "titulo": "The Witcher 3: Wild Hunt",
+      "categoria": "Jogo",
+      "plataforma": "PC / Console",
+      "nota": 9.8,
+      "status": "Jogando",
+      "capa": "https://store-images.s-microsoft.com/image/apps.53717.65858607118306853.39ed2a08-df0d-4ae1-aee0-c66ffb783a34.80ba72da-abfb-4af6-81f2-a443d12fb870"
+    },
+    {
+      "id": 6,
+      "titulo": "Minecraft",
+      "categoria": "Jogo",
+      "plataforma": "PC / Console / Mobile",
+      "nota": 9.0,
+      "status": "Jogado",
+      "capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsi9N5Hr9vhHtpEh9ZqAPrNkSqZq6w1JHaKFLiAonasw&s"
+    }
+  ]

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Blog-Moraes</title>
+</head>
+<body>
+    <header>
+    <h1>HUB DE MÍDIAS</h1>
+    <p id="gerenciador">Gerenciador de Jogos, Filmes e Séries</p>
+    </header>
+
+    <main class="container">
+        <section class="painel-cadastro">
+            <h2>Adicionar à lista de Mídia</h2>
+            <form action="" id="form_midia">
+                <input type="text" id="titulo" placeholder="Ex: Valorant" required>
+                <select id="categoria" required>
+                    <option value="Categoria">Categoria</option>
+                    <option value="Filme">Filme</option>
+                    <option value="Série">Série</option>
+                    <option value="Jogo">Jogo</option>
+                </select>
+
+                <input type="text" id="plataforma" placeholder="Ex: Netflix" required>
+                <input type="text" id="nota" step="0.1" min="0" max="10" placeholder="Ex: 0 a 10" required>
+                <button class="btn-salvar">Adicionar</button>
+            </form>
+        </section>
+        <section class="painel-catalogo">
+            <div class="filtros">
+                <button>Todos</button>
+                <button>Jogos</button>
+                <button>Filmes</button>
+                <button>Séries</button>
+            </div>
+            <div id="catalago-grid">
+                <!--Os cards virão aqui-->
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
