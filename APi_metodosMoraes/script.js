@@ -23,6 +23,25 @@ function renderizarGrid(lista){
         container_card.innerHTML = `<p class = "info"> Nenhum item cadastrado nesta categoria</p>`;
         return;
     }
+
+    lista.forEach(item =>{
+        const card = document.createElement('div');
+        card.className = 'card';
+
+        card.innerHTML = `
+        <div> 
+            <span class="tag-categoria">${item.categoria}</span>
+            <h3>${item.titulo}</h3>
+            <p class="info">Plataforma: ${item.plataforma}<p>
+            <p class="info"> Nota: <span class = "nota"> ${item.nota.toFixed(1)}</span></p>
+            <p class="info"> Status: <strong>${item.status}</strong></p>
+        </div>
+        `;
+        
+    });
+
 }
 
+
+//executa as funçoes
 document.addEventListener('DOMContentLoaded', carregarCatalogo);
