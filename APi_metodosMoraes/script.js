@@ -2,7 +2,7 @@ let colecaoMidia = [];
 
 async function carregarCatalogo(){
     const container_card = document.getElementById('catalago-grid');
-    container_card.innerhtml = "<p> Carregando itens, aguarde.</p>";
+    container_card.innerHTML = "<p> Carregando itens, aguarde.</p>";
 
     try{
         const resposta = await fetch('dados.json');
@@ -29,6 +29,7 @@ function renderizarGrid(lista){
         card.className = 'card';
 
         card.innerHTML = `
+        ${item.capa ? `<img src="${item.capa}" alt= "${item.titulo}" class="capa-midia"`: '' }
         <div> 
             <span class="tag-categoria">${item.categoria}</span>
             <h3>${item.titulo}</h3>
