@@ -9,6 +9,7 @@ async function carregarCatalogo(){
         if(!resposta.ok) throw new Error("Erro ao buscar os dados");
 
         colecaoMidia = await resposta.json();
+        renderizarGrid(colecaoMidia);
     } catch(erro){
         container_card.innerHTML = `<p style="color: #ef4444;">
                                     Erro ao carregar catálogo: %{erro.message}</p>`;
