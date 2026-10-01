@@ -38,6 +38,7 @@ function renderizarGrid(lista){
             <p class="info"> Status: <strong>${item.status}</strong></p>
         </div>
         `;
+        conteiner_card.appendChild(card);
         
     });
 
