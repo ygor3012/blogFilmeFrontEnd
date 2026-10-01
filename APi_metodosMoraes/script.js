@@ -1,7 +1,7 @@
 let colecaoMidia = [];
 
 async function carregarCatalogo() {
-    const container_card = document.getElementById('catalogo-grid');
+    const container_card = document.getElementById('catalago-grid');
     container_card.innerHTML = "<p>Carregando itens, aguarde.</p>";
 
     try {
@@ -18,7 +18,7 @@ async function carregarCatalogo() {
 }
 
 function renderizarGrid(lista) {
-    const container_card = document.getElementById('catalogo-grid');
+    const container_card = document.getElementById('catalago-grid');
     container_card.innerHTML = "";
 
     if (lista.length === 0) {
